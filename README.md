@@ -1,5 +1,7 @@
+#creating-resource-VM
 
-<h1> Creating Resource Groups and Deploying Virtual Machines</h1>
+
+<h1> Creating a Resource Group and Deploying Virtual Machines</h1>
 I will be creating a Resource Group in Azure and Deploying two Virtual Machines.
 <br/>
 
@@ -15,104 +17,22 @@ I will be creating a Resource Group in Azure and Deploying two Virtual Machines.
 - Ubuntu Server 22.04 LTS
 <br/>
 
-<h1> Create a Resource Group</h1>
+<h1> Steps </h1>
 
-<b> Click Resource Groups </b>
+<b> Click Resource Groups-> click create -> New RG and select West 3, click create-> click on virtual machines and create - Name the Virtual Machine ->Select the region (should be the same as the resource group)-> Select Windows 10 under Image->Choose Standard size -> Pick a username and password-> create VM-> Log in via Remote Desktop :white_check_mark:</b>
 
-<img src="https://i.imgur.com/NrGgVuJ.png">
-
-<b> Click Create </b>
-
-<img src="https://i.imgur.com/UJTuszX.png">
-
-<b> Name Resource Group and Select a Region</b>
-
-<img src="https://i.imgur.com/fLHYXfd.png">
-
-<b> Once it Passes Validation, Click Create </b>
-
-<img src="https://i.imgur.com/6deTcDx.png">
-
-<b> The Resource Group is Created successfully</b>
-
-<p> Now Click on Virtual Machines. If you do not see It at the top type It In the bar above</p>
-
-<img src="https://i.imgur.com/xL1DRc5.png">
-
-<b> Click Azure Virtual Machine </b>
-
-<img src="https://i.imgur.com/NhP73RP.png">
-
-- Click the resource group we just created
-- Name the Virtual Machine
-- Select the region (should be the same as the resource group)
-- Select Windows 10 under Image
-- Choose Standard size
-
-<img src="https://i.imgur.com/dCdqLvl.png">
-<img src="https://i.imgur.com/LWfS961.png">
-
-<b> Pick a username and password </b>
-
-<p>Click Review+Create at the bottom (generally don't need to select any of the other tabs; possibly the Networking tab however you should be able to successfully create the VM) </p>
-
-<img src="https://i.imgur.com/aOgot3Z.png">
-<b> Click Create</b>
-<img src="https://i.imgur.com/VygfVOP.png">
-<img src="https://i.imgur.com/9Xorpyy.png">
+<img src="https://imgur.com/szrg9CA.png">
+<img src="https://imgur.com/nnxCLRl.png">
 
 <b>Create Another VM</b>
-<p> This VM will be a Domain Controller (Windows server 2022) </p>
+<p> This VM will be a Domain Controller (Windows server 2022) Same Resource Group->Same location->Name the VM->Select Windows Server 2022->Choose Standard Size-> Pick a username and password-> Log in via Remote Desktop-> logged in :white_check_mark:
+</p>
+<img src="https://imgur.com/vA04yrG.png">
 
-- Same Resource Group
-- Same location
-- Name the VM
-- Select Windows Server 2022
-- Choose Standard Size
+<b> Create a Linus VM (Ubuntu server)-> same RG->same loc->name the VM-> select Ubuntu->choose standard size-> pick a username and password -> click password NOT SSH public key :no_entry_sign: -> click create and log in via Remote Desktop :white_check_mark:</b>
 
-<img src="https://i.imgur.com/x80cYg2.png">
-
-<b> Pick a username and password</b>
-
-<img src="https://i.imgur.com/s59AcEf.png">
-
-<b> Click Create</b>
-
-<img src="https://i.imgur.com/bW3yEsO.png">
-
-<b> Create a Linux VM (Ubuntu server)</b>
-
-- Same Resource Group
-- Same Location
-- Name the VM
-- Select Ubuntu server
-- Choose Standard size
-
-<img src="https://i.imgur.com/DozTvLb.png">
-
-<b> Pick a username and password </b>
-
-<p> Make sure to click password NOT SSH public key</p>
-
-<img src="https://i.imgur.com/bqKmgbN.png">
-
-<b> Click Create </b>
-
-<img src="https://imgur.com/pQQLOD5.png">
+<img src="https://imgur.com/YzLNrLS.png">
 
 
-
-<h1>Log Into Your VMs Using Remote Desktop</h1>
-
-<b> Log into the DC</b>
-
-<img src="https://i.imgur.com/9xZm757.png">
-<img src="https://i.imgur.com/pQ75TNI.png">
-
-<img src="https://i.imgur.com/63QtNtj.png">
-
-<b> Do the same and log into the Client </b>
-
-<img src="https://i.imgur.com/G5Rd7kJ.png">
 
 <b>The End </b>
